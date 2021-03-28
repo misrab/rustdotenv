@@ -1,8 +1,17 @@
 [package]
 name = "rustdotenv"
 version = "0.1.0"
-authors = ["Misrab <faizullah.misrab@gmail.com>"]
+authors = ["monkfish <monkfish328@gmail.com>"]
 edition = "2018"
+license = "MIT"
+description = "A Rust port of the Golang port of the Ruby dotenv project (which loads env vars from a .env file"
+repository = "https://github.com/misrab/rustdotenv"
+documentation = "https://github.com/misrab/rustdotenv" # could use docs.rs in the future
+readme = "README.md"
+categories = ["configuration", "parsing"]
+exclude = [
+    "test_data/*"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
